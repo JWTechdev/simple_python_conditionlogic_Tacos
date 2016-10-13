@@ -1,4 +1,5 @@
-# FROM PYTHON N00B TO HERO (HOPEFULLY) 
+# FROM PYTHON N00B TO HERO (HOPEFULLY)
+## Learning Python because its awesome and I WILL be a Data Scientist one day
 ## THESE ARE MY PRACTICE SNIPPETS
 ### SEE SOMETHING, SAY SOMETHING
 
