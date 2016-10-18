@@ -1,0 +1,31 @@
+
+# BLUB BOX - THE REDBOX KNOCKOFF 
+
+# our fake version of redbox with a few cult classics
+# this is a dictionary with list of movies by category
+movies_by_genre = {'action': ['Expendables','The Quest','Fist of Legend'],
+        'romance': ['50 First Dates','The Notebook','Titanic'],
+        'weird_azz_stuff': ['Requiem for a Dream','Donnie Darko','Butterfly Effect']}
+
+# creating a variable for the input from the user
+orders = []
+customer_order = input("What you want man? (Q to Quit...like the punk you are)")
+
+# prompt to see if they would like anymore movies
+while (True):
+    order = input("anything else? (Q to Quit)")
+    
+    # condition for if they pick a title that is all out
+    found = movies_by_genre.get(order)
+    if customer_order == "Expendables":
+        print('Sorry we all out of action buddy')
+        continue # then loop back up top and start over to see if we can help them with something else
+    # If they want to quit break out of this loop
+    elif customer_order.upper() == 'Q':
+        break
+    # If they pick something that doesnt exist let them know
+    else:
+        print("Menu item doesnt exist")
+        
+# Print the sum of the ordersmade by the append        
+print(orders)
